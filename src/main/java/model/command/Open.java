@@ -12,6 +12,10 @@ public class Open implements Command {
     }
     public void excute() {
         System.out.println("excute below");
-        door.Open();
+        door.open();
+    }
+
+    public void undo() {
+        door.close();
     }
 }

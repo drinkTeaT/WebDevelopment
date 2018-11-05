@@ -15,4 +15,8 @@ public class Trigger {
     public void pressButton(){
         command.excute();
     }
+
+    public void undoButton(){
+        command.undo();
+    }
 }

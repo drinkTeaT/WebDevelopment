@@ -13,5 +13,6 @@ public class Client {
 
         trigger.setCommand(command);
         trigger.pressButton();
+        trigger.undoButton();
     }
 }
