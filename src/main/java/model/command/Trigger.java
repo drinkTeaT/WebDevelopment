@@ -7,7 +7,6 @@ package model.command;
  **/
 public class Trigger {
     private Command command;
-
     public void setCommand(Command command) {
         this.command = command;
     }
