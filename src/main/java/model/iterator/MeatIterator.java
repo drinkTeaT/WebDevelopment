@@ -8,7 +8,7 @@ package model.iterator;
 public class MeatIterator implements Iterator{
     private Meat[] meats;
     private int i;
-    public MeatIterator(Meat[] meats){
+    public  MeatIterator(Meat[] meats){
         this.meats = meats;
         this.i = 0;
     }

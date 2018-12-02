@@ -2,54 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e32a59fa-ee6e-428e-a46f-8cdc6391c85a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mdoel/complex/strategy/Adapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mdoel/complex/strategy/ButtonAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mdoel/complex/strategy/Component.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mdoel/complex/strategy/ContainerAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mdoel/complex/strategy/Decorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mdoel/complex/strategy/Launcher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mdoel/complex/strategy/VirtualButton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mdoel/complex/strategy/VirtualPanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/composite/Component.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/composite/Composite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/composite/Leaf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/factory/Factory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/factory/Launcher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/factory/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/factory/ToyBear.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/factory/ToyFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/iterator/Food.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/iterator/Iterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/iterator/Launcher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/iterator/Meat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/iterator/MeatIterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/iterator/Menu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/strategy/Algorithm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/strategy/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/strategy/Launcher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/strategy/MultiplyOperation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/strategy/PlusOperation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/strategy/SimpleCalculate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/decorator/Accessories.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/decorator/Clothes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/decorator/Decorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/decorator/Launcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/decorator/Pants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/decorator/Puppy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/command/Trigger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/command/Trigger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/command/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/command/Client.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/command/Command.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/command/Command.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/command/Door.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/command/Door.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/command/Open.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/command/Open.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/command/Trigger.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/command/Trigger.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/observe/BlackShow.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/observe/BlackShow.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/observe/DataGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/observe/DataGenerator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/observe/IObserve.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/observe/IObserve.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/observe/ITheme.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/observe/ITheme.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/observe/LaunchProject.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/observe/LaunchProject.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/observe/WhileShow.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/observe/WhileShow.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pattern/observe/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pattern/observe/Client.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pattern/observe/Newspaper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pattern/observe/Newspaper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pattern/observe/ObserveMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pattern/observe/ObserveMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pattern/observe/Publisher.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pattern/observe/Publisher.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pattern/observe/TomFamily.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pattern/observe/TomFamily.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/iterator/MeatIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/iterator/MeatIterator.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -66,7 +26,7 @@
     <session id="-1435716311">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.11" value="2" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.2" value="1" />
@@ -75,126 +35,141 @@
           <entry key="project.open.time.26" value="1" />
           <entry key="project.open.time.28" value="1" />
           <entry key="project.open.time.29" value="1" />
+          <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.31" value="1" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="13" />
+          <entry key="project.opened" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="6" />
           <entry key="dynalink" value="1" />
-          <entry key="java" value="66" />
+          <entry key="java" value="93" />
           <entry key="observe" value="3" />
           <entry key="strategy" value="1" />
-          <entry key="xml" value="1" />
+          <entry key="xml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="6" />
-          <entry key="JAVA" value="66" />
+          <entry key="JAVA" value="93" />
           <entry key="UML" value="5" />
-          <entry key="XML" value="1" />
+          <entry key="XML" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="3695" />
-          <entry key="txt" value="6" />
+          <entry key="java" value="3985" />
+          <entry key="txt" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3695" />
-          <entry key="PLAIN_TEXT" value="6" />
+          <entry key="JAVA" value="3985" />
+          <entry key="PLAIN_TEXT" value="8" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/software/jdk/src.zip!/com/sun/org/apache/xalan/internal/xsltc/compiler/Predicate.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/model/command/Open.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="57" column="12" selection-start-line="57" selection-start-column="12" selection-end-line="57" selection-end-column="12" />
+            <state relative-caret-position="119">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/software/jdk/src.zip!/java/util/function/Consumer.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/model/command/Trigger.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="60" column="60" lean-forward="true" selection-start-line="60" selection-start-column="60" selection-end-line="60" selection-end-column="60" />
+            <state relative-caret-position="119">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/software/jdk/src.zip!/java/util/Collection.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/model/command/Door.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="563">
-              <caret line="579" column="22" selection-start-line="579" selection-start-column="22" selection-end-line="579" selection-end-column="22" />
+            <state relative-caret-position="119">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/model/command/Client.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/model/iterator/Food.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/model/iterator/Iterator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/model/iterator/Launcher.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="42" lean-forward="true" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/model/iterator/Meat.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/model/iterator/Menu.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
               <folding>
-                <element signature="e#26957#26958#0" expanded="true" />
-                <element signature="e#27022#27023#0" expanded="true" />
-                <element signature="e#27751#27752#0" expanded="true" />
-                <element signature="e#27815#27816#0" expanded="true" />
+                <element signature="e#187#188#0" expanded="true" />
+                <element signature="e#221#222#0" expanded="true" />
+                <element signature="e#250#251#0" expanded="true" />
+                <element signature="e#296#297#0" expanded="true" />
+                <element signature="e#333#334#0" expanded="true" />
+                <element signature="e#379#380#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/software/jdk/src.zip!/java/util/Comparator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="206">
-              <caret line="428" column="39" selection-start-line="428" selection-start-column="39" selection-end-line="428" selection-end-column="39" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="jar://D:/software/jdk/src.zip!/java/time/Instant.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/model/iterator/MeatIterator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-925">
-              <caret line="273" column="5" lean-forward="true" selection-start-line="273" selection-start-column="5" selection-end-line="273" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/software/jdk/src.zip!/java/lang/Integer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="1233" column="49" lean-forward="true" selection-start-line="1233" selection-start-column="49" selection-end-line="1233" selection-end-column="49" />
-              <folding>
-                <element signature="e#46394#46395#0" expanded="true" />
-                <element signature="e#46458#46459#0" expanded="true" />
-                <element signature="e#47036#47037#0" expanded="true" />
-                <element signature="e#47092#47093#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/software/jdk/src.zip!/java/util/List.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="477" column="17" selection-start-line="477" selection-start-column="17" selection-end-line="477" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/software/jdk/src.zip!/java/util/Arrays.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="1432" column="13" selection-start-line="1432" selection-start-column="13" selection-end-line="1432" selection-end-column="13" />
+            <state relative-caret-position="255">
+              <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -204,8 +179,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Python Script" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -217,15 +192,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
     <option name="SIGN_OFF_COMMIT" value="true" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/model/observe/IObserve.java" />
-        <option value="$PROJECT_DIR$/src/main/java/model/observe/ITheme.java" />
-        <option value="$PROJECT_DIR$/src/main/java/model/observe/LaunchProject.java" />
-        <option value="$PROJECT_DIR$/src/main/java/model/observe/WhileShow.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/observe/BlackShow.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/observe/DataGenerator.java" />
         <option value="$PROJECT_DIR$/src/test/java/pattern/observe/Publisher.java" />
@@ -265,12 +239,18 @@
         <option value="$PROJECT_DIR$/src/main/java/model/iterator/MenuIterator.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/iterator/Iterator.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/iterator/Menu.java" />
-        <option value="$PROJECT_DIR$/src/main/java/model/iterator/MeatIterator.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/iterator/Launcher.java" />
         <option value="$PROJECT_DIR$/src/main/java/Component.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/composite/Component.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/composite/Leaf.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/composite/Composite.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/decorator/Decorator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/decorator/Puppy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/decorator/Accessories.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/decorator/Pants.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/decorator/Clothes.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/decorator/Launcher.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/iterator/MeatIterator.java" />
       </list>
     </option>
   </component>
@@ -337,8 +317,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -348,25 +326,49 @@
             </path>
             <path>
               <item name="model" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="model" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="model" type="b2602c69:ProjectViewProjectNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="model" type="b2602c69:ProjectViewProjectNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="model" type="b2602c69:ProjectViewProjectNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541859574245" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/mdoel/complex/strategy" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543740845676" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="SDKs" />
@@ -387,13 +389,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Launcher (3)">
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="model.command.Client" />
+  <component name="RunManager" selected="Application.Launcher (4)">
+    <configuration name="LaunchProject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="model.observe.LaunchProject" />
       <module name="model" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="model.command.*" />
+          <option name="PATTERN" value="model.observe.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -440,12 +442,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Launcher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="model.factory.Launcher" />
+    <configuration name="Launcher (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="model.decorator.Launcher" />
       <module name="model" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="model.factory.*" />
+          <option name="PATTERN" value="model.decorator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -454,19 +456,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Client" />
-      <item itemvalue="Application.Launcher" />
       <item itemvalue="Application.Launcher (1)" />
       <item itemvalue="Application.Launcher (2)" />
       <item itemvalue="Application.Launcher (3)" />
+      <item itemvalue="Application.LaunchProject" />
+      <item itemvalue="Application.Launcher (4)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Launcher (4)" />
+        <item itemvalue="Application.LaunchProject" />
         <item itemvalue="Application.Launcher (3)" />
         <item itemvalue="Application.Launcher (2)" />
         <item itemvalue="Application.Launcher (1)" />
-        <item itemvalue="Application.Launcher" />
-        <item itemvalue="Application.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -495,7 +497,8 @@
       <workItem from="1541771279452" duration="939000" />
       <workItem from="1541808561416" duration="12590000" />
       <workItem from="1541850872227" duration="1527000" />
-      <workItem from="1541901522980" duration="5049000" />
+      <workItem from="1541901522980" duration="5170000" />
+      <workItem from="1543717688738" duration="6705000" />
     </task>
     <task id="LOCAL-00001" summary="新增命令模式">
       <created>1541432096955</created>
@@ -504,16 +507,23 @@
       <option name="project" value="LOCAL" />
       <updated>1541432096955</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="新增模式">
+      <created>1541919523049</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1541919523049</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38956000" />
+    <option name="totallyTimeSpent" value="45782000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49921012" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49921012" visible="true" weight="0.25" />
       <window_info id="Image Layers" order="1" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -521,15 +531,15 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.496875" weight="0.33015874" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49583334" visible="true" weight="0.33015874" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49895832" weight="0.39894179" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49947917" weight="0.32910052" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.503125" side_tool="true" visible="true" weight="0.31675127" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="10" sideWeight="0.50416666" side_tool="true" visible="true" weight="0.33015874" />
       <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49895832" weight="0.32910052" />
       <window_info anchor="bottom" id="Dependency Viewer" order="12" weight="0.32980973" />
       <window_info anchor="bottom" id="Problems" order="13" />
@@ -586,34 +596,17 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="新增命令模式" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增命令模式" />
+    <MESSAGE value="新增模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增模式" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/model/iterator/MeatIterator.java</url>
-          <line>28</line>
-          <properties />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/model/iterator/MeatIterator.java</url>
-          <line>16</line>
-          <properties />
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/model/iterator/Launcher.java</url>
           <line>17</line>
           <properties />
           <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-field">
-          <url>file://$PROJECT_DIR$/src/main/java/model/iterator/MeatIterator.java</url>
-          <line>9</line>
-          <properties field="i" class="model.iterator.MeatIterator" />
-          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -633,150 +626,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/factory/Factory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="48" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/factory/ToyFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/strategy/Calculator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="24" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/strategy/SimpleCalculate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/strategy/PlusOperation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mdoel/complex/strategy/VirtualButton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/mdoel.complex.strategy">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>mdoel.complex.strategy</OriginalElement>
-          <nodes>
-            <node x="" y="">mdoel.complex.strategy.VirtualButton</node>
-            <node x="" y="">mdoel.complex.strategy.Decorator</node>
-            <node x="" y="">mdoel.complex.strategy.Launcher</node>
-            <node x="" y="">mdoel.complex.strategy.VirtualPanel</node>
-            <node x="" y="">mdoel.complex.strategy.PanelAdapter</node>
-            <node x="" y="">mdoel.complex.strategy.Component</node>
-            <node x="" y="">mdoel.complex.strategy.ButtonAdapter</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="142.0" y="173.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mdoel/complex/strategy/VirtualPanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mdoel/complex/strategy/Component.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mdoel/complex/strategy/Adapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="12" column="15" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mdoel/complex/strategy/Decorator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="45" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mdoel/complex/strategy/ButtonAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mdoel/complex/strategy/ContainerAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/strategy/MultiplyOperation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/strategy/Algorithm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mdoel/complex/strategy/Launcher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="23" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/strategy/Launcher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/software/jdk/src.zip!/java/util/Iterator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-507">
-          <caret line="58" column="6" lean-forward="true" selection-start-line="58" selection-start-column="6" selection-end-line="58" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/iterator.java" />
     <entry file="jar://D:/software/jdk/javafx-src.zip!/com/sun/javafx/geom/Path2D.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
@@ -784,66 +633,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/iterator/Food.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/iterator/Launcher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="23" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/iterator/MeatIterator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/iterator/Iterator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/software/jdk/src.zip!/java/lang/reflect/InvocationHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1173">
           <caret line="92" column="43" selection-start-line="92" selection-start-column="43" selection-end-line="92" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/iterator/Menu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/composite/Component.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/composite/Leaf.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/composite/Composite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -855,13 +648,6 @@
             <element signature="e#30670#30671#0" expanded="true" />
             <element signature="e#30707#30708#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/iterator/Meat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1000,20 +786,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/software/jdk/src.zip!/com/sun/org/apache/xalan/internal/xsltc/compiler/Predicate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="57" column="12" selection-start-line="57" selection-start-column="12" selection-end-line="57" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/software/jdk/src.zip!/java/util/function/Consumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="60" column="60" lean-forward="true" selection-start-line="60" selection-start-column="60" selection-end-line="60" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/software/jdk/src.zip!/com/sun/org/apache/xpath/internal/objects/XNodeSet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="12257">
@@ -1028,9 +800,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://D:/software/jdk/src.zip!/com/sun/org/apache/xalan/internal/xsltc/compiler/Predicate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="57" column="12" selection-start-line="57" selection-start-column="12" selection-end-line="57" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/software/jdk/src.zip!/java/util/function/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="60" column="60" selection-start-line="60" selection-start-column="60" selection-end-line="60" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://D:/software/jdk/src.zip!/java/util/Collection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="563">
+        <state relative-caret-position="9384">
           <caret line="579" column="22" selection-start-line="579" selection-start-column="22" selection-end-line="579" selection-end-column="22" />
           <folding>
             <element signature="e#26957#26958#0" expanded="true" />
@@ -1041,10 +827,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://D:/software/jdk/src.zip!/java/util/Comparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6732">
+          <caret line="428" column="39" selection-start-line="428" selection-start-column="39" selection-end-line="428" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://D:/software/jdk/src.zip!/java/lang/Integer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="1233" column="49" lean-forward="true" selection-start-line="1233" selection-start-column="49" selection-end-line="1233" selection-end-column="49" />
+        <state relative-caret-position="19975">
+          <caret line="1233" column="49" selection-start-line="1233" selection-start-column="49" selection-end-line="1233" selection-end-column="49" />
           <folding>
             <element signature="e#46394#46395#0" expanded="true" />
             <element signature="e#46458#46459#0" expanded="true" />
@@ -1054,31 +847,248 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/software/jdk/src.zip!/java/util/Arrays.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="1432" column="13" selection-start-line="1432" selection-start-column="13" selection-end-line="1432" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/software/jdk/src.zip!/java/util/List.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
+        <state relative-caret-position="7718">
           <caret line="477" column="17" selection-start-line="477" selection-start-column="17" selection-end-line="477" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/software/jdk/src.zip!/java/util/Comparator.java">
+    <entry file="jar://D:/software/jdk/src.zip!/java/util/Arrays.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="428" column="39" selection-start-line="428" selection-start-column="39" selection-end-line="428" selection-end-column="39" />
+        <state relative-caret-position="23409">
+          <caret line="1432" column="13" selection-start-line="1432" selection-start-column="13" selection-end-line="1432" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="jar://D:/software/jdk/src.zip!/java/time/Instant.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-925">
-          <caret line="273" column="5" lean-forward="true" selection-start-line="273" selection-start-column="5" selection-end-line="273" selection-end-column="5" />
+        <state relative-caret-position="367">
+          <caret line="351" column="10" selection-start-line="351" selection-start-column="10" selection-end-line="351" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-272">
+          <caret line="20" column="16" lean-forward="true" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/composite/Component.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/composite/Composite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/composite/Leaf.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/observe/IObserve.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/observe/ITheme.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/observe/DataGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/observe/LaunchProject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="40" lean-forward="true" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/observe/BlackShow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+          <folding>
+            <element signature="e#221#222#0" expanded="true" />
+            <element signature="e#258#259#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mdoel/complex/strategy/Decorator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="45" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mdoel/complex/strategy/Launcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/decorator/Puppy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+          <folding>
+            <element signature="e#185#186#0" expanded="true" />
+            <element signature="e#211#212#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/decorator/Accessories.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+          <folding>
+            <element signature="e#237#238#0" expanded="true" />
+            <element signature="e#278#279#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/decorator/Pants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+          <folding>
+            <element signature="e#187#188#0" expanded="true" />
+            <element signature="e#219#220#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/decorator/Decorator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/decorator/Clothes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+          <folding>
+            <element signature="e#188#189#0" expanded="true" />
+            <element signature="e#211#212#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/decorator/Launcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/command/Command.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/command/Door.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/command/Open.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/command/Trigger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/command/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/iterator/Meat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/iterator/Food.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/iterator/Iterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/iterator/Launcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="42" lean-forward="true" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/iterator/Menu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+          <folding>
+            <element signature="e#187#188#0" expanded="true" />
+            <element signature="e#221#222#0" expanded="true" />
+            <element signature="e#250#251#0" expanded="true" />
+            <element signature="e#296#297#0" expanded="true" />
+            <element signature="e#333#334#0" expanded="true" />
+            <element signature="e#379#380#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/iterator/MeatIterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
         </state>
       </provider>
     </entry>
