@@ -2,14 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e32a59fa-ee6e-428e-a46f-8cdc6391c85a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/decorator/Accessories.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/decorator/Clothes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/decorator/Decorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/decorator/Launcher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/decorator/Pants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/decorator/Puppy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/pattern.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/review/chain_of_responsibility/Grade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/review/chain_of_responsibility/GradeLaucher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/review/chain_of_responsibility/SecondGrade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/review/chain_of_responsibility/ThirdGrade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/review/chain_of_responsibility/TopGrade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/review/chain_of_responsibility/使用说明书" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/review/command/Actor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/review/command/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/review/command/CommandLauncher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/review/command/RemoteController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/review/command/Speaker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/review/command/使用说明书" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/review/composite/FileEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/review/composite/FileFolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/review/composite/FileLaucher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/review/composite/FileManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/review/composite/使用说明书" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/review/mediator/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/review/mediator/使用说明" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/review/memeto/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/review/proxy/BusDynamicProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/review/proxy/BusProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/review/proxy/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/review/proxy/DynamicProxyLauncher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/review/proxy/ProxyLauncher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/review/proxy/使用说明书" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/iterator/MeatIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/iterator/MeatIterator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -22,154 +46,128 @@
   <component name="CompilerWorkspaceConfiguration">
     <option name="MAKE_PROJECT_ON_SAVE" value="true" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="-1435716311">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="4" />
-          <entry key="project.open.time.11" value="2" />
-          <entry key="project.open.time.14" value="1" />
-          <entry key="project.open.time.2" value="1" />
-          <entry key="project.open.time.20" value="1" />
-          <entry key="project.open.time.22" value="2" />
-          <entry key="project.open.time.26" value="1" />
-          <entry key="project.open.time.28" value="1" />
-          <entry key="project.open.time.29" value="1" />
-          <entry key="project.open.time.3" value="1" />
-          <entry key="project.open.time.31" value="1" />
-          <entry key="project.open.time.8" value="1" />
-          <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="14" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="class" value="6" />
-          <entry key="dynalink" value="1" />
-          <entry key="java" value="93" />
-          <entry key="observe" value="3" />
-          <entry key="strategy" value="1" />
-          <entry key="xml" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="CLASS" value="6" />
-          <entry key="JAVA" value="93" />
-          <entry key="UML" value="5" />
-          <entry key="XML" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="java" value="3985" />
-          <entry key="txt" value="8" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="3985" />
-          <entry key="PLAIN_TEXT" value="8" />
-        </counts>
-      </usages-collector>
-    </session>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/model/command/Open.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/model/review/composite/使用说明书">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/model/command/Trigger.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/model/command/Door.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/model/command/Client.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/model/iterator/Food.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/model/iterator/Iterator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/model/iterator/Launcher.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="42" lean-forward="true" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/model/iterator/Meat.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/model/iterator/Menu.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
-              <folding>
-                <element signature="e#187#188#0" expanded="true" />
-                <element signature="e#221#222#0" expanded="true" />
-                <element signature="e#250#251#0" expanded="true" />
-                <element signature="e#296#297#0" expanded="true" />
-                <element signature="e#333#334#0" expanded="true" />
-                <element signature="e#379#380#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="221">
+              <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/model/iterator/MeatIterator.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/model/review/memeto/Client.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+            <state relative-caret-position="121">
+              <caret line="40" column="5" lean-forward="true" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+              <folding>
+                <element signature="e#189#190#0" expanded="true" />
+                <element signature="e#217#218#0" expanded="true" />
+                <element signature="e#331#332#0" expanded="true" />
+                <element signature="e#377#378#0" expanded="true" />
+                <element signature="e#428#429#0" expanded="true" />
+                <element signature="e#477#478#0" expanded="true" />
+                <element signature="e#563#564#0" expanded="true" />
+                <element signature="e#597#598#0" expanded="true" />
+                <element signature="e#818#819#0" expanded="true" />
+                <element signature="e#848#849#0" expanded="true" />
+                <element signature="e#895#896#0" expanded="true" />
+                <element signature="e#933#934#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/model/review/command/使用说明书">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/model/review/mediator/Client.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1122">
+              <caret line="72" selection-start-line="72" selection-end-line="72" />
+              <folding>
+                <element signature="e#199#200#0" expanded="true" />
+                <element signature="e#228#229#0" expanded="true" />
+                <element signature="e#269#270#0" expanded="true" />
+                <element signature="e#305#306#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/model/review/mediator/使用说明">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="15" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/model/review/command/RemoteController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="629">
+              <caret line="40" column="9" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/model/review/command/Command.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/model/review/command/Speaker.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+              <folding>
+                <element signature="e#191#192#0" expanded="true" />
+                <element signature="e#238#239#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/model/review/command/Actor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+              <folding>
+                <element signature="e#189#190#0" expanded="true" />
+                <element signature="e#234#235#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/model/review/command/CommandLauncher.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="24" column="30" selection-start-line="23" selection-end-line="25" />
             </state>
           </provider>
         </entry>
@@ -181,6 +179,7 @@
       <list>
         <option value="Python Script" />
         <option value="Interface" />
+        <option value="Singleton" />
         <option value="Class" />
       </list>
     </option>
@@ -188,6 +187,8 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>Iterator</find>
+      <find>size</find>
+      <find>peek</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -200,38 +201,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/model/observe/BlackShow.java" />
-        <option value="$PROJECT_DIR$/src/main/java/model/observe/DataGenerator.java" />
-        <option value="$PROJECT_DIR$/src/test/java/pattern/observe/Publisher.java" />
-        <option value="$PROJECT_DIR$/src/test/java/pattern/observe/Client.java" />
-        <option value="$PROJECT_DIR$/src/test/java/pattern/observe/TomFamily.java" />
-        <option value="$PROJECT_DIR$/src/test/java/pattern/observe/ObserveMain.java" />
-        <option value="$PROJECT_DIR$/src/test/java/pattern/observe/Newspaper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/model/command/OpenDoor.java" />
-        <option value="$PROJECT_DIR$/src/main/java/model/command/Open.java" />
-        <option value="$PROJECT_DIR$/src/main/java/model/command/Door.java" />
-        <option value="$PROJECT_DIR$/src/main/java/model/command/Client.java" />
-        <option value="$PROJECT_DIR$/src/main/java/model/command/Trigger.java" />
-        <option value="$PROJECT_DIR$/src/main/java/model/command/Command.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/model/factory/ToyBear.java" />
-        <option value="$PROJECT_DIR$/src/main/java/model/factory/Product.java" />
-        <option value="$PROJECT_DIR$/src/main/java/model/factory/Factory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/model/factory/ToyFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/model/factory/Launcher.java" />
-        <option value="$PROJECT_DIR$/src/main/java/model/strategy/PlusOperation.java" />
-        <option value="$PROJECT_DIR$/src/main/java/model/strategy/Algorithm.java" />
-        <option value="$PROJECT_DIR$/src/main/java/model/strategy/MultiplyOperation.java" />
-        <option value="$PROJECT_DIR$/src/main/java/model/strategy/Calculator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/model/strategy/SimpleCalculate.java" />
-        <option value="$PROJECT_DIR$/src/main/java/model/strategy/Launcher.java" />
-        <option value="$PROJECT_DIR$/src/main/java/mdoel/complex/strategy/VirtualButton.java" />
-        <option value="$PROJECT_DIR$/src/main/java/mdoel/complex/strategy/VirtualPanel.java" />
-        <option value="$PROJECT_DIR$/src/main/java/mdoel/complex/strategy/ButtonAdapter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/mdoel/complex/strategy/Component.java" />
-        <option value="$PROJECT_DIR$/src/main/java/mdoel/complex/strategy/PanelAdapter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/mdoel/complex/strategy/Decorator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/mdoel/complex/strategy/ContainerAdapter.java" />
         <option value="$PROJECT_DIR$/src/main/java/mdoel/complex/strategy/Launcher.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/iterator/iterator.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/iterator/Food.java" />
@@ -251,14 +220,40 @@
         <option value="$PROJECT_DIR$/src/main/java/model/decorator/Clothes.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/decorator/Launcher.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/iterator/MeatIterator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/review/proxy/CarProxy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/review/proxy/ProxyLauncher.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/review/proxy/Car.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/review/proxy/BusDynamicProxy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/review/proxy/BusProxy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/review/proxy/DynamicProxyLauncher.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/review/composite/FileEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/review/composite/FileManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/review/composite/FileLaucher.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/review/composite/FileFolder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/review/composite/README.md" />
+        <option value="$PROJECT_DIR$/src/main/java/model/review/composite/e.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/review/proxy/使用说明书" />
+        <option value="$PROJECT_DIR$/src/main/java/model/review/composite/使用说明书" />
+        <option value="$PROJECT_DIR$/src/main/java/model/review/chain_of_responsibility/Grade.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/review/chain_of_responsibility/ThirdGrade.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/review/chain_of_responsibility/SecondGrade.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/review/chain_of_responsibility/TopGrade.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/review/chain_of_responsibility/GradeLaucher.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/review/chain_of_responsibility/使用说明书" />
+        <option value="$PROJECT_DIR$/src/main/java/model/review/command/Client.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/review/command/使用说明书" />
+        <option value="$PROJECT_DIR$/src/test/java/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/review/command/RemoteController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/review/command/Command.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/review/command/Speaker.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/review/command/Actor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/review/command/CommandLauncher.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/review/mediator/使用说明" />
+        <option value="$PROJECT_DIR$/src/main/java/model/review/mediator/Mediator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/review/mediator/Client.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/review/memeto/Client.java" />
       </list>
     </option>
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -313,7 +308,7 @@
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
-      <flattenPackages ProjectPane="true" />
+      <flattenPackages ProjectPane="false" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
@@ -321,50 +316,88 @@
         <subPane>
           <expand>
             <path>
-              <item name="model" type="b2602c69:ProjectViewProjectNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="pattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pattern" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="model" type="b2602c69:ProjectViewProjectNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="model" type="b2602c69:ProjectViewProjectNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="pattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pattern" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="model" type="b2602c69:ProjectViewProjectNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="pattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pattern" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="model" type="b2602c69:ProjectViewProjectNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="pattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pattern" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="model" type="b2602c69:ProjectViewProjectNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="pattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pattern" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="review" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="review" type="462c0819:PsiDirectoryNode" />
+              <item name="memeto" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543740845676" />
@@ -389,13 +422,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Launcher (4)">
-    <configuration name="LaunchProject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="model.observe.LaunchProject" />
-      <module name="model" />
+  <component name="RunManager" selected="Application.Client (2)">
+    <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="model.review.mediator.Client" />
+      <module name="pattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="model.observe.*" />
+          <option name="PATTERN" value="model.review.mediator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -403,12 +436,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Launcher (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="model.strategy.Launcher" />
-      <module name="model" />
+    <configuration name="Client (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="model.review.memeto.Client" />
+      <module name="pattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="model.strategy.*" />
+          <option name="PATTERN" value="model.review.memeto.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -416,12 +449,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Launcher (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mdoel.complex.strategy.Launcher" />
-      <module name="model" />
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="model.review.command.Client" />
+      <module name="pattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mdoel.complex.strategy.*" />
+          <option name="PATTERN" value="model.review.command.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -429,12 +462,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Launcher (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="model.iterator.Launcher" />
-      <module name="model" />
+    <configuration name="CommandLauncher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="model.review.command.CommandLauncher" />
+      <module name="pattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="model.iterator.*" />
+          <option name="PATTERN" value="model.review.command.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -442,33 +475,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Launcher (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="model.decorator.Launcher" />
-      <module name="model" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="model.decorator.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test" />
+      <module name="pattern" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Launcher (1)" />
-      <item itemvalue="Application.Launcher (2)" />
-      <item itemvalue="Application.Launcher (3)" />
-      <item itemvalue="Application.LaunchProject" />
-      <item itemvalue="Application.Launcher (4)" />
+      <item itemvalue="Application.Test" />
+      <item itemvalue="Application.Client" />
+      <item itemvalue="Application.CommandLauncher" />
+      <item itemvalue="Application.Client (1)" />
+      <item itemvalue="Application.Client (2)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Launcher (4)" />
-        <item itemvalue="Application.LaunchProject" />
-        <item itemvalue="Application.Launcher (3)" />
-        <item itemvalue="Application.Launcher (2)" />
-        <item itemvalue="Application.Launcher (1)" />
+        <item itemvalue="Application.Client (2)" />
+        <item itemvalue="Application.Client (1)" />
+        <item itemvalue="Application.CommandLauncher" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -499,6 +526,15 @@
       <workItem from="1541850872227" duration="1527000" />
       <workItem from="1541901522980" duration="5170000" />
       <workItem from="1543717688738" duration="6705000" />
+      <workItem from="1557240650393" duration="3204000" />
+      <workItem from="1557320314082" duration="2467000" />
+      <workItem from="1557326217427" duration="591000" />
+      <workItem from="1557408759517" duration="4149000" />
+      <workItem from="1557457433728" duration="3018000" />
+      <workItem from="1557485997534" duration="7827000" />
+      <workItem from="1557536802964" duration="4469000" />
+      <workItem from="1557665782013" duration="597000" />
+      <workItem from="1558093830503" duration="605000" />
     </task>
     <task id="LOCAL-00001" summary="新增命令模式">
       <created>1541432096955</created>
@@ -518,12 +554,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45782000" />
+    <option name="totallyTimeSpent" value="72709000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49921012" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49921012" visible="true" weight="0.25" />
       <window_info id="Image Layers" order="1" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -531,21 +568,22 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49583334" visible="true" weight="0.33015874" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49895832" weight="0.39894179" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48958334" weight="0.21974522" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49583334" weight="0.39808917" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49947917" weight="0.32910052" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info active="true" anchor="bottom" id="Event Log" order="10" sideWeight="0.50416666" side_tool="true" visible="true" weight="0.33015874" />
-      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49895832" weight="0.32910052" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5104167" side_tool="true" visible="true" weight="0.21974522" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49791667" weight="0.32908705" />
       <window_info anchor="bottom" id="Dependency Viewer" order="12" weight="0.32980973" />
       <window_info anchor="bottom" id="Problems" order="13" />
+      <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" sideWeight="0.49921012" visible="true" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" sideWeight="0.28163266" visible="true" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Database" order="5" />
@@ -553,7 +591,9 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="SciView" order="8" />
       <window_info anchor="right" id="Maven Projects" order="9" />
-      <window_info anchor="right" x="1330" y="142" width="480" height="316" id="Structure" order="10" sideWeight="0.5007899" side_tool="true" visible="true" weight="0.25" />
+      <window_info anchor="right" x="1330" y="142" width="480" height="316" id="Structure" order="10" sideWeight="0.71836734" side_tool="true" visible="true" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="11" />
+      <window_info anchor="right" id="Redis Servers" order="12" />
     </layout>
     <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
@@ -591,9 +631,6 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="新增命令模式" />
     <MESSAGE value="新增模式" />
@@ -608,11 +645,32 @@
           <properties />
           <option name="timeStamp" value="4" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/model/review/proxy/BusDynamicProxy.java</url>
+          <line>20</line>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateCodeFragment">
+      <expression>
+        <expression-string>field.get(dataModel);</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>fields[0].getName()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>method.invoke(proxy,args);</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>((BlackShow) iObserve).name</expression-string>
         <language-id>JAVA</language-id>
@@ -626,252 +684,135 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://D:/software/jdk/javafx-src.zip!/com/sun/javafx/geom/Path2D.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/command/Door.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="2274" column="16" selection-start-line="2274" selection-start-column="16" selection-end-line="2274" selection-end-column="16" />
+        <state relative-caret-position="119">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/command/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/iterator/Food.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/iterator/Iterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/iterator/Launcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="42" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/iterator/Meat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/iterator/Menu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+          <folding>
+            <element signature="e#187#188#0" expanded="true" />
+            <element signature="e#221#222#0" expanded="true" />
+            <element signature="e#250#251#0" expanded="true" />
+            <element signature="e#296#297#0" expanded="true" />
+            <element signature="e#333#334#0" expanded="true" />
+            <element signature="e#379#380#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/iterator/MeatIterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/review/proxy/ProxyLauncher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/review/proxy/Car.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="35" column="17" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="jar://D:/software/jdk/src.zip!/java/lang/reflect/InvocationHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1173">
-          <caret line="92" column="43" selection-start-line="92" selection-start-column="43" selection-end-line="92" selection-end-column="43" />
+        <state relative-caret-position="510">
+          <caret line="53" column="71" selection-start-line="53" selection-start-column="71" selection-end-line="53" selection-end-column="71" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/software/jdk/src.zip!/java/util/ArrayList.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/review/proxy/BusProxy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16371">
-          <caret line="1015" column="5" selection-start-line="1015" selection-start-column="5" selection-end-line="1015" selection-end-column="5" />
+        <state relative-caret-position="323">
+          <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
           <folding>
-            <element signature="e#30670#30671#0" expanded="true" />
-            <element signature="e#30707#30708#0" expanded="true" />
+            <element signature="e#370#371#0" expanded="true" />
+            <element signature="e#404#405#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/review/proxy/BusDynamicProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="19" column="48" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#304#305#0" expanded="true" />
+            <element signature="e#331#332#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar://D:/software/jdk/src.zip!/java/lang/reflect/Method.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="182" column="13" lean-forward="true" selection-start-line="182" selection-start-column="13" selection-end-line="182" selection-end-column="13" />
+        <state relative-caret-position="7191">
+          <caret line="483" column="18" selection-start-line="483" selection-start-column="18" selection-end-line="483" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="uml://JAVA/jdk.internal.dynalink">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>jdk.internal.dynalink</OriginalElement>
-          <nodes>
-            <node x="0.0" y="0.0">jdk.internal.dynalink.RelinkableCallSite</node>
-            <node x="548.0" y="0.0">jdk.internal.dynalink.linker</node>
-            <node x="341.0" y="162.0">jdk.internal.dynalink.MonomorphicCallSite</node>
-            <node x="341.0" y="0.0">jdk.internal.dynalink.GuardedInvocationFilter</node>
-            <node x="170.0" y="0.0">jdk.internal.dynalink.CallSiteDescriptor</node>
-            <node x="508.0" y="238.0">jdk.internal.dynalink.DefaultBootstrapper</node>
-            <node x="289.0" y="238.0">jdk.internal.dynalink.DynamicLinkerFactory</node>
-            <node x="0.0" y="314.0">jdk.internal.dynalink.DynamicLinker</node>
-            <node x="0.0" y="238.0">jdk.internal.dynalink.NoSuchDynamicMethodException</node>
-            <node x="575.75" y="81.0">jdk.internal.dynalink.beans</node>
-            <node x="274.5" y="81.0">jdk.internal.dynalink.support</node>
-            <node x="184.0" y="162.0">jdk.internal.dynalink.ChainedCallSite</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="jdk.internal.dynalink.beans" target="jdk.internal.dynalink.linker">
-              <point x="0.0" y="-15.5" />
-              <point x="29.25" y="15.5" />
-            </edge>
-            <edge source="jdk.internal.dynalink.support" target="jdk.internal.dynalink.CallSiteDescriptor">
-              <point x="-16.375" y="-15.5" />
-              <point x="323.625" y="51.0" />
-              <point x="245.5" y="51.0" />
-              <point x="0.0" y="15.5" />
-            </edge>
-            <edge source="jdk.internal.dynalink.support" target="jdk.internal.dynalink.linker">
-              <point x="49.125" y="-15.5" />
-              <point x="389.125" y="61.0" />
-              <point x="577.25" y="61.0" />
-              <point x="-29.25" y="15.5" />
-            </edge>
-            <edge source="jdk.internal.dynalink.ChainedCallSite" target="jdk.internal.dynalink.support">
-              <point x="0.0" y="-15.5" />
-              <point x="252.5" y="137.0" />
-              <point x="307.25" y="137.0" />
-              <point x="-32.75" y="15.5" />
-            </edge>
-            <edge source="jdk.internal.dynalink.support" target="jdk.internal.dynalink.RelinkableCallSite">
-              <point x="-49.125" y="-15.5" />
-              <point x="290.875" y="61.0" />
-              <point x="75.0" y="61.0" />
-              <point x="0.0" y="15.5" />
-            </edge>
-            <edge source="jdk.internal.dynalink.MonomorphicCallSite" target="jdk.internal.dynalink.support">
-              <point x="0.0" y="-15.5" />
-              <point x="427.5" y="137.0" />
-              <point x="372.75" y="137.0" />
-              <point x="32.75" y="15.5" />
-            </edge>
-            <edge source="jdk.internal.dynalink.support" target="jdk.internal.dynalink.GuardedInvocationFilter">
-              <point x="16.375" y="-15.5" />
-              <point x="356.375" y="51.0" />
-              <point x="434.5" y="51.0" />
-              <point x="0.0" y="15.5" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="348.0" y="173.0" />
-          <SelectedNodes>
-            <node>jdk.internal.dynalink.ChainedCallSite</node>
-          </SelectedNodes>
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/software/jdk/jre/lib/ext/nashorn.jar!/jdk/internal/dynalink/CallSiteDescriptor.class">
+    <entry file="jar://D:/software/jdk/src.zip!/java/lang/Class.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="10" column="37" lean-forward="true" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+        <state relative-caret-position="13090">
+          <caret line="843" column="22" selection-start-line="843" selection-start-column="22" selection-end-line="843" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/software/jdk/jre/lib/ext/nashorn.jar!/jdk/internal/dynalink/DynamicLinker.class">
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/review/proxy/DynamicProxyLauncher.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/software/jdk/jre/lib/ext/nashorn.jar!/jdk/internal/dynalink/DynamicLinkerFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/software/jdk/src.zip!/java/lang/invoke/CallSite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4835">
-          <caret line="318" column="57" selection-start-line="318" selection-start-column="57" selection-end-line="318" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/software/jdk/src.zip!/java/lang/invoke/MutableCallSite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="83" column="41" selection-start-line="83" selection-start-column="41" selection-end-line="83" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/software/jdk/jre/lib/ext/nashorn.jar!/jdk/internal/dynalink/support/AbstractRelinkableCallSite.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="12" column="62" lean-forward="true" selection-start-line="12" selection-start-column="62" selection-end-line="12" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/software/jdk/jre/lib/ext/nashorn.jar!/jdk/internal/dynalink/MonomorphicCallSite.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="11" column="56" lean-forward="true" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/software/jdk/jre/lib/ext/nashorn.jar!/jdk/internal/dynalink/ChainedCallSite.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/software/jdk/src.zip!/com/sun/org/apache/xpath/internal/objects/XNodeSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12257">
-          <caret line="768" column="38" lean-forward="true" selection-start-line="768" selection-start-column="38" selection-end-line="768" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/software/jdk/src.zip!/java/util/Comparators.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="64" column="68" selection-start-line="64" selection-start-column="68" selection-end-line="64" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/software/jdk/src.zip!/com/sun/org/apache/xalan/internal/xsltc/compiler/Predicate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="57" column="12" selection-start-line="57" selection-start-column="12" selection-end-line="57" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/software/jdk/src.zip!/java/util/function/Consumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="60" column="60" selection-start-line="60" selection-start-column="60" selection-end-line="60" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/software/jdk/src.zip!/java/util/Collection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9384">
-          <caret line="579" column="22" selection-start-line="579" selection-start-column="22" selection-end-line="579" selection-end-column="22" />
+        <state relative-caret-position="289">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
           <folding>
-            <element signature="e#26957#26958#0" expanded="true" />
-            <element signature="e#27022#27023#0" expanded="true" />
-            <element signature="e#27751#27752#0" expanded="true" />
-            <element signature="e#27815#27816#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/software/jdk/src.zip!/java/util/Comparator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6732">
-          <caret line="428" column="39" selection-start-line="428" selection-start-column="39" selection-end-line="428" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/software/jdk/src.zip!/java/lang/Integer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19975">
-          <caret line="1233" column="49" selection-start-line="1233" selection-start-column="49" selection-end-line="1233" selection-end-column="49" />
-          <folding>
-            <element signature="e#46394#46395#0" expanded="true" />
-            <element signature="e#46458#46459#0" expanded="true" />
-            <element signature="e#47036#47037#0" expanded="true" />
-            <element signature="e#47092#47093#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/software/jdk/src.zip!/java/util/List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7718">
-          <caret line="477" column="17" selection-start-line="477" selection-start-column="17" selection-end-line="477" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/software/jdk/src.zip!/java/util/Arrays.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23409">
-          <caret line="1432" column="13" selection-start-line="1432" selection-start-column="13" selection-end-line="1432" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/software/jdk/src.zip!/java/time/Instant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="351" column="10" selection-start-line="351" selection-start-column="10" selection-end-line="351" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-272">
-          <caret line="20" column="16" lean-forward="true" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -896,199 +837,279 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/observe/IObserve.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/review/composite/FileManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        <state relative-caret-position="136">
+          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/observe/ITheme.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/review/composite/FileFolder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/observe/DataGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/observe/LaunchProject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="40" lean-forward="true" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/observe/BlackShow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+        <state relative-caret-position="306">
+          <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
           <folding>
-            <element signature="e#221#222#0" expanded="true" />
-            <element signature="e#258#259#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#334#335#0" expanded="true" />
+            <element signature="e#366#367#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mdoel/complex/strategy/Decorator.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/review/composite/FileEntity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="45" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mdoel/complex/strategy/Launcher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/decorator/Puppy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+        <state relative-caret-position="51">
+          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
           <folding>
-            <element signature="e#185#186#0" expanded="true" />
-            <element signature="e#211#212#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/decorator/Accessories.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-          <folding>
-            <element signature="e#237#238#0" expanded="true" />
-            <element signature="e#278#279#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/decorator/Pants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-          <folding>
-            <element signature="e#187#188#0" expanded="true" />
             <element signature="e#219#220#0" expanded="true" />
+            <element signature="e#250#251#0" expanded="true" />
+            <element signature="e#291#292#0" expanded="true" />
+            <element signature="e#327#328#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/decorator/Decorator.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/review/composite/README.md" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/review/composite/e.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/review/composite/FileLaucher.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+        <state relative-caret-position="119">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/decorator/Clothes.java">
+    <entry file="file://$PROJECT_DIR$/target/test-classes/Test.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+          <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
           <folding>
-            <element signature="e#188#189#0" expanded="true" />
-            <element signature="e#211#212#0" expanded="true" />
+            <element signature="e#0#496#0" expanded="true" />
+            <element signature="e#199#323#0" expanded="true" />
+            <element signature="e#322#323#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/decorator/Launcher.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/review/chain_of_responsibility/Grade.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+        <state relative-caret-position="51">
+          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/command/Command.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/review/chain_of_responsibility/TopGrade.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        <state relative-caret-position="221">
+          <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+          <folding>
+            <element signature="e#197#198#0" expanded="true" />
+            <element signature="e#235#236#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/command/Door.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/command/Open.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/command/Trigger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/command/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/iterator/Meat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/iterator/Food.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/iterator/Iterator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/iterator/Launcher.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/review/chain_of_responsibility/SecondGrade.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
-          <caret line="14" column="42" lean-forward="true" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
+          <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/iterator/Menu.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/review/chain_of_responsibility/ThirdGrade.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+        <state relative-caret-position="238">
+          <caret line="16" column="44" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
           <folding>
-            <element signature="e#187#188#0" expanded="true" />
-            <element signature="e#221#222#0" expanded="true" />
-            <element signature="e#250#251#0" expanded="true" />
-            <element signature="e#296#297#0" expanded="true" />
-            <element signature="e#333#334#0" expanded="true" />
-            <element signature="e#379#380#0" expanded="true" />
+            <element signature="e#201#202#0" expanded="true" />
+            <element signature="e#239#240#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/iterator/MeatIterator.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/review/chain_of_responsibility/GradeLaucher.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+        <state relative-caret-position="51">
+          <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/review/chain_of_responsibility/使用说明书">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/review/proxy/使用说明书">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="3" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/review/command/Client.java" />
+    <entry file="jar://D:/software/jdk/src.zip!/java/util/ArrayDeque.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="215" column="11" selection-start-line="215" selection-start-column="11" selection-end-line="215" selection-end-column="11" />
+          <folding>
+            <element signature="e#6627#6628#0" expanded="true" />
+            <element signature="e#6668#6669#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/software/jdk/src.zip!/java/util/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="82" column="13" selection-start-line="82" selection-start-column="13" selection-end-line="82" selection-end-column="13" />
+          <folding>
+            <element signature="e#11209#11210#0" expanded="true" />
+            <element signature="e#11247#11248#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/software/jdk/src.zip!/java/util/Collections.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86020">
+          <caret line="5517" column="45" selection-start-line="5517" selection-start-column="45" selection-end-line="5517" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/software/jdk/src.zip!/java/util/Deque.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2703">
+          <caret line="192" column="17" selection-start-line="192" selection-start-column="17" selection-end-line="192" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/software/jdk/src.zip!/java/util/Queue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="198" column="10" selection-start-line="198" selection-start-column="6" selection-end-line="198" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-collections4/4.1/commons-collections4-4.1-sources.jar!/org/apache/commons/collections4/queue/CircularFifoQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="263" column="44" selection-start-line="263" selection-start-column="22" selection-end-line="263" selection-end-column="44" />
+          <folding>
+            <element signature="e#2983#2984#0" expanded="true" />
+            <element signature="e#3007#3008#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/review/composite/使用说明书">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/review/command/使用说明书">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/review/mediator/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1122">
+          <caret line="72" selection-start-line="72" selection-end-line="72" />
+          <folding>
+            <element signature="e#199#200#0" expanded="true" />
+            <element signature="e#228#229#0" expanded="true" />
+            <element signature="e#269#270#0" expanded="true" />
+            <element signature="e#305#306#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/review/mediator/使用说明">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="15" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/review/command/RemoteController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="40" column="9" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/review/command/Command.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/review/command/Speaker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+          <folding>
+            <element signature="e#191#192#0" expanded="true" />
+            <element signature="e#238#239#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/review/command/Actor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+          <folding>
+            <element signature="e#189#190#0" expanded="true" />
+            <element signature="e#234#235#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/review/command/CommandLauncher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="30" selection-start-line="23" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/review/memeto/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="40" column="5" lean-forward="true" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+          <folding>
+            <element signature="e#189#190#0" expanded="true" />
+            <element signature="e#217#218#0" expanded="true" />
+            <element signature="e#331#332#0" expanded="true" />
+            <element signature="e#377#378#0" expanded="true" />
+            <element signature="e#428#429#0" expanded="true" />
+            <element signature="e#477#478#0" expanded="true" />
+            <element signature="e#563#564#0" expanded="true" />
+            <element signature="e#597#598#0" expanded="true" />
+            <element signature="e#818#819#0" expanded="true" />
+            <element signature="e#848#849#0" expanded="true" />
+            <element signature="e#895#896#0" expanded="true" />
+            <element signature="e#933#934#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
