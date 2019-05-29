@@ -13,6 +13,10 @@ public class CommandLauncher {
         // press down
         controller.pressDown(command);
         controller.pressDown(command1);
+        controller.pressDown(command1);
+        controller.pressDown(command);
+        controller.pressDown(command1);
+        controller.pressDown(command1);
         // forward
         controller.forward();
         // backward
@@ -23,5 +27,9 @@ public class CommandLauncher {
         controller.backward();
         // backward
         controller.backward();
+        // backward
+        controller.backward();
+        // forward
+        controller.forward();
     }
 }
